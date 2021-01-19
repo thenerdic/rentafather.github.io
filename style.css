@@ -1,0 +1,95 @@
+* {
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font: 15px 'Roboto Mono', monospace;
+}
+
+nav {
+    min-height: 10vh;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212121;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 0rem 2rem;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.text-intro {
+    position: absolute;
+    font-size: 1.2rem;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: white;
+}
+
+.text-intro h1 {
+    position: relative;
+    left: 30%;
+}
+
+.text-intro h3 {
+    position: relative;
+    left: 10%;
+}
+
+.img-intro img{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.winner-photo img {
+    position: relative;
+    display: block;
+    max-width: 700px;
+    max-height: 700px;
+    top: 15%;
+    left: 25%;
+}
+
+#winner-section {
+    min-height: 70vh;
+    display: flex;
+    margin: auto;
+    background-color: #212121;
+}
+
+.winner-text {
+    position: absolute;
+    color: white;
+    left: 60%;
+    top: 100%;
+    transform: translate(55px, 160px);
+}
+
+.winner-text p {
+    padding-top: 15px;
+    width: 500px;
+    font-size: 20px;
+}
